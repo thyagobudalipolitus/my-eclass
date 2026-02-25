@@ -1,0 +1,14 @@
+kind: "AppStack"
+apiVersion: "v1alpha"
+runConfig:
+  minInstances: 0
+  maxInstances: 10
+  concurrency: 80
+  cpu: 1
+  memoryMiB: 512
+# You can add environment variables and secrets here:
+# env:
+#   - variable: MY_ENV_VAR
+#     value: my-value
+#   - variable: MY_SECRET
+#     secret: MY_SECRET_NAME
